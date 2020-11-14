@@ -2,7 +2,7 @@
 # Correr Dockerfile para Testing 
 ```shell
 
-docker pull vazconsuelomauricio/gcoop
+docker pull vazconsuelomauricio/gcoop:dockerGcoop
 
 docker run -p 80:80 vazconsuelomauricio ping 8.8.8.8 
 
