@@ -12,12 +12,12 @@ Nota: (ping 8.8.8.8 ) comando para mantener con vida el contenedor!
 
 ## Configuracion
 
-- `mysql_root_password`: the password for the MySQL root account.
-- `app_user`: a remote non-root user on the Ansible host that will own the application files.
-- `http_host`: your domain name.
-- `http_conf`: the name of the configuration file that will be created within Apache.
-- `http_port`: HTTP port, default is 80.
-- `disable_default`: whether or not to disable the default Apache website. When set to true, your new virtualhost should be used as default website. Default is true.
+- `mysql_root_password`: contraseña de MySQL root account.
+- `app_user`: un usuario remoto no root en el host Ansible que será propietario de los archivos de la aplicación.
+- `http_host`: tu domain name.
+- `http_conf`: el nombre del archivo de configuración que se creará dentro de Apache.
+- `http_port`: HTTP port, por defecto es 80.
+- `disable_default`: deshabilitar o no el sitio web predeterminado de Apache. Cuando se establece en verdadero, su nuevo host virtual debe usarse como sitio web predeterminado. El valor        predeterminado es verdadero
 
 
 ## Correr este Playbook
