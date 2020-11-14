@@ -1,7 +1,8 @@
 # Correr DockerFile para Testing 
+```shell
 cd test/
 docker run -p 80:80 --name=ansible_buster debian_playbook
-
+```
 # LAMP on Debian Baster
 
 ## Configuracion
