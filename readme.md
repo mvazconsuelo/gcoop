@@ -6,7 +6,7 @@ docker pull vazconsuelomauricio/gcoop
 
 docker run -p 80:80 vazconsuelomauricio ping 8.8.8.8 
 
-Nota: comando de vida para mantener vivo al contenedor! 
+Nota: comando para mantener con vida para mantener vivo al contenedor! 
 ```
 # LAMP on Debian Baster
 
