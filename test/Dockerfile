@@ -1,11 +1,7 @@
-FROM debian
- 
-WORKDIR /deploy
+FROM  geerlingguy/docker-debian10-ansible
 
-COPY . :/deploy
+COPY . /deploy
 
-RUN apt-get install ansible
-
-COPY  . host:/etc/ansible/
+EXPOSE 80
 
 CMD [ "ansible-playbook", "playbook.yml" ]

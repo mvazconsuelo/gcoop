@@ -1,0 +1,7 @@
+---
+mysql_root_password: "gc00p"
+app_user: "mauricio"
+http_host: "gcoopcandidate"
+http_conf: "gcoopcandidate.conf"
+http_port: "80"
+disable_default: true

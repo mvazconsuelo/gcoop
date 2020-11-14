@@ -1,7 +1,12 @@
+
 # Correr DockerFile para Testing 
 ```shell
-cd test/
-docker run -p 80:80 --name=ansible_buster debian_playbook
+
+docker pull vazconsuelomauricio/gcoop
+
+docker run -p 80:80 vazconsuelomauricio ping 8.8.8.8 
+
+Nota: comando de vida para mantener vivo al contenedor! 
 ```
 # LAMP on Debian Baster
 
@@ -17,12 +22,13 @@ docker run -p 80:80 --name=ansible_buster debian_playbook
 
 ## Correr este Playbook
 
-Quickstart guide for those already familiar with Ansible:
+
+## Quickstart Ansible:
 
 ### 1. Obtain the playbook
 ```shell
-git clone https://github.com/do-community/ansible-playbooks.git
-cd ansible-playbooks/lamp_ubuntu1804
+git clone https://github.com/mvazconsuelo/gcoop.git
+cd /gcoop
 ```
 
 ### 2. Personalizar variables
