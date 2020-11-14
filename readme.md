@@ -6,7 +6,7 @@ docker pull vazconsuelomauricio/gcoop
 
 docker run -p 80:80 vazconsuelomauricio ping 8.8.8.8 
 
-Nota: (ping 8.8.8.8 )comando para mantener con vida para mantener vivo al contenedor! 
+Nota: (ping 8.8.8.8 ) comando para mantener con vida el contenedor! 
 ```
 # LAMP on Debian Baster
 
@@ -25,7 +25,7 @@ Nota: (ping 8.8.8.8 )comando para mantener con vida para mantener vivo al conten
 
 ## Quickstart Ansible:
 
-### 1. Obtain the playbook
+### 1. Obtener the playbook
 ```shell
 git clone https://github.com/mvazconsuelo/gcoop.git
 cd /gcoop
