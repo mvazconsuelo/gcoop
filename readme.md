@@ -1,12 +1,12 @@
 
-# Correr DockerFile para Testing 
+# Correr Dockerfile para Testing 
 ```shell
 
 docker pull vazconsuelomauricio/gcoop
 
 docker run -p 80:80 vazconsuelomauricio ping 8.8.8.8 
 
-Nota: comando para mantener con vida para mantener vivo al contenedor! 
+Nota: (ping 8.8.8.8 )comando para mantener con vida para mantener vivo al contenedor! 
 ```
 # LAMP on Debian Baster
 
@@ -46,7 +46,7 @@ http_port: "80"
 disable_default: true
 ```
 
-### 3. Run the Playbook
+### 3. Correr el Playbook
 
 ```command
 ansible-playbook playbook.yml
